@@ -12,14 +12,14 @@ body {
 }
 
 main {
-  max-width: 480px;
+  max-width: 600px;
   margin: 100px auto;
   padding: 0 24px;
 }
 
 h1 {
-  margin: 0 0 24px;
-  font-size: 22px;
+  margin: 0 0 4px;
+  font-size: 26px;
   font-weight: 600;
 }
 
@@ -27,13 +27,29 @@ p {
   margin: 0 0 12px;
 }
 
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 24px;
-  list-style: none;
-  margin: 28px 0 0;
-  padding: 0;
+.affiliation {
+  margin-bottom: 30px;
+  color: #595959;
+  font-size: 14px;
+}
+
+.profile-link {
+  margin-top: 20px;
+}
+
+section {
+  margin-top: 38px;
+}
+
+h2 {
+  margin: 0 0 14px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.description {
+  color: #595959;
+  font-size: 14px;
 }
 
 a {
