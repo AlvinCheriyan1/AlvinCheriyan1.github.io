@@ -3,27 +3,52 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Alvin Cheriyan — student at the University of Maryland, College Park. Personal website and projects.">
+    <meta name="description" content="Alvin Cheriyan — computer science student at the University of Maryland, College Park, interested in machine learning.">
     <meta name="theme-color" content="#ffffff">
     <title>Alvin Cheriyan</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main>
-      <h1>Alvin Cheriyan</h1>
-      <p class="affiliation">Student · University of Maryland, College Park</p>
-
-      <p>Hi, I’m Alvin, a student at the <a href="https://www.umd.edu/">University of Maryland, College Park</a>. I enjoy building things and learning along the way.</p>
-      <p>This is where I share my projects and what I’m working on.</p>
-      <p class="profile-link"><a href="https://github.com/AlvinCheriyan1">GitHub</a></p>
-
-      <section aria-labelledby="projects-title">
-        <h2 id="projects-title">Projects</h2>
-        <!-- Add real coursework and personal projects here as they are ready to share. -->
-        <p><a href="https://github.com/AlvinCheriyan1/AlvinCheriyan1.github.io">Personal website</a><br>
-          <span class="description">This portfolio, built with HTML and CSS.</span>
-        </p>
-      </section>
-    </main>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page">
+      <header class="profile">
+        <h1>Alvin Cheriyan</h1>
+        <p class="role">Computer Science Student</p>
+        <p class="affiliation"><a href="https://www.umd.edu/">University of Maryland</a><br>College Park</p>
+        <p class="profile-links"><a href="https://github.com/AlvinCheriyan1">GitHub</a></p>
+        <nav aria-label="Page sections">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+        </nav>
+      </header>
+      <main id="main">
+        <section id="about" aria-labelledby="about-title">
+          <h2 id="about-title">About Me</h2>
+          <p>I’m Alvin Cheriyan, a computer science student at the <a href="https://www.umd.edu/">University of Maryland, College Park</a>. My academic interests center on machine learning. I enjoy building things and learning along the way.</p>
+          <p>This website brings together my projects and what I’m working on as a student. You can find my code on <a href="https://github.com/AlvinCheriyan1">GitHub</a>.</p>
+        </section>
+        <section id="education" aria-labelledby="education-title">
+          <h2 id="education-title">Education</h2>
+          <h3>University of Maryland, College Park</h3>
+          <p class="secondary">Computer Science Student</p>
+          <!-- Add your degree, expected graduation year, and relevant coursework here. -->
+        </section>
+        <section id="projects" aria-labelledby="projects-title">
+          <h2 id="projects-title">Projects</h2>
+          <ul class="project-list">
+            <li>
+              <article>
+                <h3><a href="https://github.com/AlvinCheriyan1/AlvinCheriyan1.github.io">Personal Website</a></h3>
+                <p>A personal homepage for my background and projects, built with HTML and CSS.</p>
+                <p class="project-links"><a href="https://github.com/AlvinCheriyan1/AlvinCheriyan1.github.io">[code]</a></p>
+              </article>
+            </li>
+            <!-- Add real coursework, personal projects, or research here. -->
+          </ul>
+        </section>
+        <footer><p>Alvin Cheriyan · University of Maryland, College Park</p></footer>
+      </main>
+    </div>
   </body>
 </html>

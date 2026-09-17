@@ -1,17 +1,16 @@
 # Alvin Cheriyan
 
-A minimal student portfolio for Alvin Cheriyan at the University of Maryland, College Park. White background, plain typography, a brief introduction, and project links.
+A simple academic-style student homepage for Alvin Cheriyan at the University of Maryland, College Park. A white background, grayscale text, serif typography, and a profile sidebar accompany sections for a biography, education, and projects. The layout stacks on mobile and includes keyboard focus indicators and a skip-to-content link.
 
-Open `index.html` in a browser. No build, dependencies, or JavaScript required.
+Open `index.html` in a browser. No dependencies or JavaScript required for the webpage. It remains ready for GitHub Pages from the repository root.
 
-Edit the biography and project entries in `index.html`. Layout and typography are in `styles.css`. Add major, coursework, resume, and contact details when available.
+Edit biography, education, and project entries in `index.html`. Layout and typography are in `styles.css`. Add major, coursework, resume, and contact details when available.
 
-Ready to serve directly from the repository root with GitHub Pages.
+For Sites hosting, run `python3 scripts/build.py` to create a dependency-free Worker in `dist/server/index.js`. `.openai/hosting.json` identifies the private Sites preview.
 
 ## Design references
 
-The affiliation-first introduction and project links draw on these student pages, with an original, stripped-down layout:
+- https://hyfshishen.github.io/
+- https://www.cs.umd.edu/~miyyer/
 
-- https://jkim8256.github.io/
-- https://terpconnect.umd.edu/~ahans12/sgc/portfolio.html
-- https://wensenliu.com/
+The layout draws on the references’ academic profile and text-first presentation, using original content and styles.
